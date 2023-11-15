@@ -15,7 +15,7 @@ class VehicleTest {
     //проверка того, что экземпляр объекта Car также является экземпляром
     // транспортного средства; (instanceof)
     @Test
-    void instanceOf() {
+    void testCarIsInstanceOfVehicle() {
         assertThat(car instanceof Vehicle);
     }
 
